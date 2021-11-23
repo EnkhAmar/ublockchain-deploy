@@ -24,8 +24,8 @@ const icons = [
     },
 ];
 
-const Conferences = ({ data }) => {
-    const paragraphs = data.paragraphs;
+const Conferences = ({ data, dataParagraphs }) => {
+    const paragraphs = dataParagraphs;
     return (
         <div className="conferences-container container">
             <div className="conf-icons-box">

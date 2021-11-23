@@ -14,7 +14,7 @@
         {
             "time": "14:50",
             "id": "3",
-            "action": "Panel Discussion #1 | Blockchain in Mongolia"
+            "action": "Panel Discussion #1 | Future of Blockchain"
         },
         {
             "time": "15:50",
@@ -29,7 +29,7 @@
         {
             "time": "16:40",
             "id": "6",
-            "action": "Panel Discussion #2 | Future of Blockchain"
+            "action": "Panel Discussion #2 | Blockchain in Mongolia"
         },
         {
             "time": "17:40",
@@ -63,9 +63,16 @@
             "description": "CEO of IHC and Chairman of Fintech and Blockchain Council of Mongolia"
         },
         {
-            "name": "Michael Madden",
-            "description": "CEO and Founder of Ronoc, Teneo Capital, XacBank, Renaissance Capital"
+            "name": "Gabit Bazar",
+            "description": "Chairman of Infinite Solutions"
+        },
+        {
+            "name": "Ider-Od",
+            "description": "CMO of IHC"
+        },
+        {
+            "name": "Robert Palmer",
+            "description": "Head of Loyalty and Rewards Wondr Gaming"
         }
-    ],
-    "features": []
+    ]
 }

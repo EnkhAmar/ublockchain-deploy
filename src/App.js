@@ -65,10 +65,17 @@ function App() {
                     <Home />
                 </section>
                 <section id="conferences">
-                    <Conferences data={language === "en" ? dataEn : dataMn} />
+                    <Conferences
+                        dataParagraphs={
+                            language === "en"
+                                ? dataEn.paragraphs
+                                : dataMn.paragraphs
+                        }
+                        data={dataEn}
+                    />
                 </section>
                 <section id="speakers">
-                    <Speakers data={language === "en" ? dataEn : dataMn} />
+                    <Speakers data={dataEn} />
                 </section>
                 {/* <section id="features">
                     <Features />
