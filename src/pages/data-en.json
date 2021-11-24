@@ -55,10 +55,6 @@
     ],
     "speakers": [
         {
-            "name": "Asiad Majeed",
-            "description": "Founder and CEO of Yamzu"
-        },
-        {
             "name": "Gantig Bayarmagnai",
             "description": "CEO of IHC and Chairman of Fintech and Blockchain Council of Mongolia"
         },
@@ -73,6 +69,18 @@
         {
             "name": "Robert Palmer",
             "description": "Head of Loyalty and Rewards Wondr Gaming"
+        },
+        {
+            "name": "Adam S. Tracy",
+            "description": "Attorney Consultant in Crypto and Blockchain Policy"
+        },
+        {
+            "name": "Khangal Nergui",
+            "description": "Founder and CEO of Store Pay"
+        },
+        {
+            "name": "Louis Curran",
+            "description": "Strategic Advisor and Partner of JST Capital"
         }
     ]
 }

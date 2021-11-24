@@ -36,10 +36,7 @@ const Features = () => {
         <div className="container">
             <div className="features-container">
                 <div className="features-content">
-                    <h1 className="features-title">
-                        <span className="text-bold">SUPPROTING </span>
-                        ORGANIZATIONS
-                    </h1>
+                    <h1 className="features-title text-bold">SPONSORS</h1>
                     <div className="carousel-features">
                         <InfiniteCarousel
                             breakpoints={breakpoints}

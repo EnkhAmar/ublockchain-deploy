@@ -1,8 +1,8 @@
 import React from "react";
 
 import Conferences from "./pages/Conferences";
-// import Countries from "./pages/Countries";
-// import Features from "./pages/Features";
+import Countries from "./pages/Countries";
+import Features from "./pages/Features";
 import Home from "./pages/Home";
 import Speakers from "./pages/Speakers";
 
@@ -77,14 +77,14 @@ function App() {
                 <section id="speakers">
                     <Speakers data={dataEn} />
                 </section>
-                {/* <section id="features">
+                <section id="features">
                     <Features />
                 </section>
                 <div id="countries">
                     <section id="features">
                         <Countries />
                     </section>
-                </div> */}
+                </div>
             </div>
         </>
     );

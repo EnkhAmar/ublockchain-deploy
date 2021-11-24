@@ -2,13 +2,21 @@ import React from "react";
 
 import Arrow from "../components/Arrow";
 import Card from "../components/Card";
-import speaker0 from "../assets/speakers/speaker1.jpg";
-import speaker1 from "../assets/speakers/speaker2.jpg";
-import speaker2 from "../assets/speakers/Gabit Bazar Chairman of Infinite Solutions.jpg";
-import speaker3 from "../assets/speakers/Ider-Od CMO of IHC.001.png";
-import speaker4 from "../assets/speakers/Robert Palmer Head of Loyalty and Rewards Wondr Gaming.png";
+import speaker0 from "../assets/speakers/Gantig Bayarmagnai.jpg";
+import speaker1 from "../assets/speakers/Gabit Bazar Chairman of Infinite Solutions.jpg";
+import speaker2 from "../assets/speakers/Ider-Od CMO of IHC.001.png";
+import speaker3 from "../assets/speakers/Robert Palmer Head of Loyalty and Rewards Wondr Gaming.png";
+import speaker4 from "../assets/speakers/Adam S. Tracy Attorney Consultant in Crypto and Blockchain Policy.png";
+import speaker5 from "../assets/speakers/Khangal Nergui Founder and CEO of Store Pay.jpg";
+import speaker6 from "../assets/speakers/Louis Curran Strategic Advisor and Partner of JST Capital.jpg";
 
 import InfiniteCarousel from "react-leaf-carousel";
+
+// asiad hasagdana
+// countries mongolia, brazil, usa, uk, sg, ireland, sk, sweden
+// strategic partners +hippocards?
+
+//
 
 const Speakers = ({ data }) => {
     const breakpoints = [
