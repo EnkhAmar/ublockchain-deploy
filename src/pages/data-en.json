@@ -55,24 +55,20 @@
     ],
     "speakers": [
         {
-            "name": "Gantig Bayarmagnai",
-            "description": "CEO of IHC and Chairman of Fintech and Blockchain Council of Mongolia"
+            "name": "Adam S. Tracy",
+            "description": "Attorney Consultant in Crypto and Blockchain Policy"
         },
         {
             "name": "Gabit Bazar",
             "description": "Chairman of Infinite Solutions"
         },
         {
+            "name": "Gantig Bayarmagnai",
+            "description": "CEO of IHC and Chairman of Fintech and Blockchain Council of Mongolia"
+        },
+        {
             "name": "Ider-Od Bat-Erdene",
             "description": "CMO of IHC"
-        },
-        {
-            "name": "Robert Palmer",
-            "description": "Head of Loyalty and Rewards Wondr Gaming"
-        },
-        {
-            "name": "Adam S. Tracy",
-            "description": "Attorney Consultant in Crypto and Blockchain Policy"
         },
         {
             "name": "Khangal Nergui",
@@ -81,6 +77,10 @@
         {
             "name": "Louis Curran",
             "description": "Strategic Advisor and Partner of JST Capital"
+        },
+        {
+            "name": "Robert Palmer",
+            "description": "Head of Loyalty and Rewards Wondr Gaming"
         }
     ]
 }

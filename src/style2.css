@@ -41,9 +41,9 @@
 }
 
 .features-content {
-    display: flex;
+    /* display: flex; */
     /* height: 40vh; */
-    flex-direction: column;
+    /* flex-direction: column; */
 }
 
 .desc {
@@ -90,8 +90,37 @@
 
 .carousel-features {
     width: 60vw;
-    margin: 0 auto;
+    background: linear-gradient(
+        90deg,
+        rgba(255, 255, 255, 0) 0%,
+        rgba(255, 255, 255, 1) 25%,
+        rgba(255, 255, 255, 1) 85%,
+        rgba(255, 255, 255, 0) 100%
+    );
 }
+
+.carousel-features1 {
+    width: 60vw;
+    background: linear-gradient(
+        90deg,
+        rgba(255, 255, 255, 0) 0%,
+        rgba(255, 255, 255, 1) 25%,
+        rgba(255, 255, 255, 1) 85%,
+        rgba(255, 255, 255, 0) 100%
+    );
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.partner {
+    width: 20%;
+    padding: 0 10px;
+}
+
+/* .carousel-features .partner {
+    width: auto;
+    height: 100%;
+} */
 
 .card {
     text-align: center;
@@ -112,16 +141,6 @@
     font-size: 18px;
     font-weight: 200;
 }
-
-/* .organization {
-    height: 15vh !important;
-    width: auto !important;
-}
-
-.partner {
-    height: 15vh !important;
-    width: auto !important;
-} */
 
 .flag {
     height: 60px;
@@ -156,6 +175,7 @@ footer {
 .footer-img {
     height: 50px;
     width: auto;
+    margin: 0 10px;
 }
 
 .footer-container {
@@ -202,9 +222,20 @@ footer p {
     fill: #9dabc7 !important;
 }
 
-/* .social-link {
-    border-radius: 50%;
-} */
+.features-carousel-features1 {
+    height: 10vh;
+    background: linear-gradient(
+        90deg,
+        rgba(255, 255, 255, 0) 0%,
+        rgba(255, 255, 255, 1) 25%,
+        rgba(255, 255, 255, 1) 85%,
+        rgba(255, 255, 255, 0) 100%
+    );
+    width: 60vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 
 .break {
     flex-basis: 100%;
@@ -221,8 +252,17 @@ footer p {
     .carousel-features {
         width: 80vw;
     }
+    .carousel-features1 {
+        width: 80vw;
+    }
     .desc {
         font-size: 1.2em;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .partner {
+        width: 35%;
     }
 }
 
@@ -248,13 +288,20 @@ footer p {
     .footer-img {
         display: none;
     }
+    .footer-container {
+        justify-content: center;
+    }
     .flags-container img {
-        width: 25px;
-        height: 25px;
+        width: 40px;
+        height: 40px;
     }
     .footer-container div a svg {
-        width: 15px;
-        height: 15px;
+        width: 20px;
+        height: 20px;
+    }
+    .partner {
+        width: 50%;
+        padding: 0 5px;
     }
 }
 

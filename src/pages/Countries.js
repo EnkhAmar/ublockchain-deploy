@@ -1,24 +1,24 @@
 import React from "react";
-import ae from "../assets/flags/united-arab-emirates.png";
-import bb from "../assets/flags/barbados.png";
-import bg from "../assets/flags/bulgaria.png";
-import ch from "../assets/flags/switzerland.png";
-import de from "../assets/flags/germany.png";
+
+import cn from "../assets/flags/canada.png";
 import gb from "../assets/flags/united-kingdom.png";
 import ie from "../assets/flags/ireland.png";
-import ind from "../assets/flags/india.png";
-// import kr from "../assets/flags/south-korea.png";
-// import mt from "../assets/flags/malta.png";
-// import ru from "../assets/flags/russia.png";
-// import se from "../assets/flags/sweden.png";
-// import sg from "../assets/flags/singapore.png";
-// import us from "../assets/flags/united-states.png";
+import kr from "../assets/flags/south-korea.png";
+import mn from "../assets/flags/mongolia.png";
+// import sw from "../assets/flags/sweden.png";
+import sg from "../assets/flags/singapore.png";
+import us from "../assets/flags/united-states.png";
 
-import logo from "../assets/logos/ublockchain-white-logo.png";
+import logo1 from "../assets/logos/logo1.png";
+import logo2 from "../assets/logos/logo2.png";
+import logo3 from "../assets/logos/logo3.png";
+import logo4 from "../assets/logos/logo4.png";
 
 // https://codepen.io/funxer/pen/Zvjebx
 
 // facebook, ig, youtube, twitter
+
+// brazil <-> canada,
 
 const Countries = () => {
     return (
@@ -28,29 +28,21 @@ const Countries = () => {
                     POWERFUL<span className="text-bold"> INTERNATIONAL </span>
                     PRESENCE
                 </h1>
-                <p className="desc">
+                {/* <p className="desc">
                     With an array of international tech companies and
                     trailblazing speakers confirmed, Future Blockchain Summit is
                     set to unite all corners of the Blockchain and Crypto
                     ecosystem.
-                </p>
+                </p> */}
 
                 <div className="flags-container">
-                    <img src={ae} alt="ae" className="flag" />
-                    <img src={bb} alt="bb" className="flag" />
-                    <img src={bg} alt="bg" className="flag" />
-                    <img src={ch} alt="ae" className="flag" />
-                    <img src={de} alt="ae" className="flag" />
+                    <img src={mn} alt="ae" className="flag" />
+                    <img src={cn} alt="bb" className="flag" />
+                    <img src={us} alt="bg" className="flag" />
                     <img src={gb} alt="ae" className="flag" />
+                    <img src={sg} alt="ae" className="flag" />
                     <img src={ie} alt="ae" className="flag" />
-                    <img src={ind} alt="ae" className="flag" />
-                    {/* <div className="break" />
-                        <img src={kr} alt="ae" className="flag" />
-                        <img src={mt} alt="ae" className="flag" />
-                        <img src={ru} alt="ae" className="flag" />
-                        <img src={se} alt="ae" className="flag" />
-                        <img src={sg} alt="ae" className="flag" />
-                        <img src={us} alt="ae" className="flag" /> */}
+                    <img src={kr} alt="ae" className="flag" />
                 </div>
             </div>
             <footer>
@@ -158,8 +150,28 @@ const Countries = () => {
                             </svg>
                         </a>
                     </div>
-
-                    <img src={logo} alt={logo} className="footer-img"></img>
+                    <div>
+                        <img
+                            src={logo1}
+                            alt={logo1}
+                            className="footer-img"
+                        ></img>
+                        <img
+                            src={logo2}
+                            alt={logo2}
+                            className="footer-img"
+                        ></img>
+                        <img
+                            src={logo3}
+                            alt={logo3}
+                            className="footer-img"
+                        ></img>
+                        <img
+                            src={logo4}
+                            alt={logo4}
+                            className="footer-img"
+                        ></img>
+                    </div>
                 </div>
             </footer>
         </>
